@@ -1,0 +1,22 @@
+html, body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Comic Sans MS', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: 0;
+}
+
+body {
+  padding: 1rem 2rem;
+}
+
+ul {
+  list-style-type: '\1F4A1';
+  padding-left: 1.5rem;
+}
+
+li {
+  padding-left: 0.50rem;
+}
+
+ul li.done {
+  color: darkcyan;
+  list-style-type: '\2705';
+}

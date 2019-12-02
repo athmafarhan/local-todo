@@ -1,0 +1,12 @@
+{
+  "name": "local-todo",
+  "version": 2,
+  "builds": [{ "src": "/public/*", "use": "@now/static" }],
+  "routes": [
+    { "src": "/", "dest": "/public/index.html" },
+    { "src": "/(.*)", "dest": "/public/$1" }
+  ],
+  "regions": ["all"],
+  "public": true,
+  "github": { "enabled": true, "autoAlias": true }
+}

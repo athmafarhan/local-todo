@@ -1,0 +1,26 @@
+{
+  "name": "localtodo",
+  "description": "your local todo list",
+  "version": "1.0.0",
+  "author": "Griko Nibras (hello@griko.id)",
+  "homepage": "https://github.com/grikomsn/localtodo#readme",
+  "scripts": {
+    "start": "serve public",
+    "format": "prettier --config .prettierrc --write public/*.{css,html,js}",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "serve": "^11.2.0"
+  },
+  "devDependencies": {
+    "husky": "^3.1.0",
+    "prettier": "^1.19.1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn format"
+    }
+  },
+  "repository": "https://github.com/grikomsn/localtodo",
+  "license": "MIT"
+}
